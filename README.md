@@ -27,19 +27,19 @@ The engine follows the **UCI (Universal Chess Interface)** standard, which allow
    python training.py
 
 2. **Run the engine**
-   '''bash
+   ```bash
    python myengine.py
 
 3. **Compile to executable**
-    '''bash
+    ```bash
     pyinstaller --onefile myengine.py
 
     This will generate a standalone executable:
-    '''bash
+    ```bash
     dist/myengine.exe
 
 4. ***Test in GUI software***
-    '''bash
+    ```bash
     Download and install Cute Chess GUI
 
     Open the engine manager and add myengine.exe as a UCI engine.
