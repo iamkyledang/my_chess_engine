@@ -31,15 +31,11 @@ The engine follows the **UCI (Universal Chess Interface)** standard, which allow
    python myengine.py
 
 3. **Compile to executable**
-  This will generate a standalone executable myengine.exe
-
     ```bash
     pyinstaller --onefile myengine.py
 
 
-4. ***Test in GUI software***
-    Download and install Cute Chess GUI.
-    Open the engine manager and add myengine.exe as a UCI engine.
+4. ***Test in Cute chess GUI software***
 
     
 
